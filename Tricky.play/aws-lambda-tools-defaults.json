@@ -1,0 +1,26 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "default",
+    "region"      : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "function-runtime" : "dotnetcore3.1",
+    "function-memory-size" : 256,
+    "function-timeout"     : 900,
+    "function-handler"     : "Tricky.Play::Tricky.play.Function::FunctionHandler",
+    "function-name"        : "PlayTricky",
+    "function-description" : "",
+    "package-type"         : "Zip",
+    "function-role"        : "arn:aws:iam::214697756788:role/PaginationTestESPM-AspNetCoreFunctionRole-D90K3UMIX6MU",
+    "tracing-mode"         : "PassThrough",
+    "environment-variables" : "\"REDIS_HOST\"=\"tricky-game-espm.rglymd.ng.0001.use1.cache.amazonaws.com:6379\"",
+    "image-tag"             : "",
+    "function-subnets"      : "subnet-4b3ab414,subnet-a279f4c4,subnet-00e06b21,subnet-6a134f27,subnet-82d707b3,subnet-92dd9a9c",
+    "function-security-groups" : "sg-d5432ae2"
+}

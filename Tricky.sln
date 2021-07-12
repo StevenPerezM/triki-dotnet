@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{681B5B6C-E59E-4D54-BC93-B6A1ADD3A3D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{66858BF8-1F3D-4D89-949C-38DFDABEB00B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Players", "Players", "{B3631A8B-0F6F-4EDF-B689-B7AF1E5C9B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play", "Play", "{39DC2893-3750-4744-9582-F5090F9B6947}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tricky.Core", "Tricky.Core\Tricky.Core.csproj", "{D4C39486-EC98-46DD-984D-1C0064107B89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tricky.play", "Tricky.play\Tricky.play.csproj", "{D28B1240-2CDF-4361-84A7-75357726143B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tricky.Players", "Tricky.Players\Tricky.Players.csproj", "{F6DE194D-C693-4E01-BD8F-D81F8FDB165A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndGame", "EndGame", "{AC7B06A7-35CC-4D42-B567-219A0CB26D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tricky.EndGame", "Tricky.EndGame\Tricky.EndGame.csproj", "{3D0F5602-22E4-402E-B53E-080D08201BE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4C39486-EC98-46DD-984D-1C0064107B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C39486-EC98-46DD-984D-1C0064107B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C39486-EC98-46DD-984D-1C0064107B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C39486-EC98-46DD-984D-1C0064107B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28B1240-2CDF-4361-84A7-75357726143B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28B1240-2CDF-4361-84A7-75357726143B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28B1240-2CDF-4361-84A7-75357726143B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28B1240-2CDF-4361-84A7-75357726143B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DE194D-C693-4E01-BD8F-D81F8FDB165A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DE194D-C693-4E01-BD8F-D81F8FDB165A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DE194D-C693-4E01-BD8F-D81F8FDB165A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DE194D-C693-4E01-BD8F-D81F8FDB165A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0F5602-22E4-402E-B53E-080D08201BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0F5602-22E4-402E-B53E-080D08201BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0F5602-22E4-402E-B53E-080D08201BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0F5602-22E4-402E-B53E-080D08201BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3631A8B-0F6F-4EDF-B689-B7AF1E5C9B66} = {681B5B6C-E59E-4D54-BC93-B6A1ADD3A3D5}
+		{39DC2893-3750-4744-9582-F5090F9B6947} = {681B5B6C-E59E-4D54-BC93-B6A1ADD3A3D5}
+		{D4C39486-EC98-46DD-984D-1C0064107B89} = {66858BF8-1F3D-4D89-949C-38DFDABEB00B}
+		{D28B1240-2CDF-4361-84A7-75357726143B} = {39DC2893-3750-4744-9582-F5090F9B6947}
+		{F6DE194D-C693-4E01-BD8F-D81F8FDB165A} = {B3631A8B-0F6F-4EDF-B689-B7AF1E5C9B66}
+		{AC7B06A7-35CC-4D42-B567-219A0CB26D7E} = {681B5B6C-E59E-4D54-BC93-B6A1ADD3A3D5}
+		{3D0F5602-22E4-402E-B53E-080D08201BE8} = {AC7B06A7-35CC-4D42-B567-219A0CB26D7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3623037A-3868-4414-8F48-BE7C2E30EFBE}
+	EndGlobalSection
+EndGlobal
